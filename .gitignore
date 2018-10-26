@@ -307,4 +307,4 @@ OpenCover/
 ################## Ngs internal ignores
 .vscode/
 *.orig
-/src/Web/package-lock.json
+/src/Web/.jest/cache
