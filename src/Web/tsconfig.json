@@ -24,7 +24,7 @@
       //added iterable because it's in use into the JQuery d.ts)
       "dom"
     ],
-    "outDir": "wwwroot/tjs/"
+    "outDir": "dist"
     //"traceResolution" : true //enable it only for debugging
   },
   "compileOnSave": true,

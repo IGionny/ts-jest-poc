@@ -1,0 +1,1 @@
+export const isFoo = (input:string) => input === 'foo'
