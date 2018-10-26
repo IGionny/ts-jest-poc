@@ -1,1 +1,1 @@
-export const isNullOrEmpty = (val: string | null | undefined): boolean => val == null || val === ''
+export const isNullOrEmpty = (val: string | null | undefined): boolean => val == null || val === '';

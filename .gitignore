@@ -308,3 +308,4 @@ OpenCover/
 .vscode/
 *.orig
 /src/Web/.jest/cache
+/src/Web/dist/

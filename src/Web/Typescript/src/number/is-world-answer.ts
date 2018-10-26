@@ -1,1 +1,1 @@
-export const isWorldAnswer = (input: number) => input === 42
+export const isWorldAnswer = (input: number) => input === 42;
