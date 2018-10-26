@@ -1,0 +1,41 @@
+//https://www.typescriptlang.org/docs/handbook/compiler-options.html
+{
+  "compilerOptions": {
+    "strict": true,
+    "strictFunctionTypes": false,
+    "noImplicitReturns": true,
+    "noEmitOnError": true,
+    //"strictPropertyInitialization": true,
+
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "rootDir": "Typescript",
+    "removeComments": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    //"inlineSourceMap": true, //needed to debug in chrome if sourceMap is true
+    //"inlineSources": true, //needed to debug in chrome if sourceMap is true
+    "target": "ES5",
+    "module": "ES2015",
+    "moduleResolution": "node",
+    //permit to resolve include directives with the node_modules directory
+    "lib": [
+      "es2015",
+      "es2015.iterable",
+      //added iterable because it's in use into the JQuery d.ts)
+      "dom"
+    ],
+    "outDir": "wwwroot/tjs/"
+    //"traceResolution" : true //enable it only for debugging
+  },
+  "compileOnSave": true,
+  "include": [
+    "Typescript/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts",
+    //from: https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
+    "wwwroot"
+  ]
+}
