@@ -2,6 +2,7 @@
   "name": "web",
   "version": "1.0.0",
   "description": "",
+  "main": "dist/index.js",
   "scripts": {
     "test": "node node_modules/.bin/jest",
     "build": "node node_modules/.bin/tsc -p tsconfig.build.json"
